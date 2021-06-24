@@ -1,7 +1,8 @@
 public class Lotto {
-    public final static int LOTTO_BALLS_SIZE = 7;
-
     public static void main(String[] args) {
-
+        Simulation simulation = new Simulation(100);
+        for(String result: simulation.getResult()){
+            System.out.println("result = " + result);
+        }
     }
 }

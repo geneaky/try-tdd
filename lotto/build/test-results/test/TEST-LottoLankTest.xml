@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LottoLankTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-24T14:28:13" hostname="JCR" time="0.067">
+  <properties/>
+  <testcase name="일치하는 번호에 따른 등수 판별" classname="LottoLankTest" time="0.067"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

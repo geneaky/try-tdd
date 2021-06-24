@@ -24,4 +24,31 @@ public class LottoNumberRefereeTest {
         //then
         assertEquals(count,5);
     }
+
+    @Test
+    @DisplayName("뽑은 6개 숫자중 보너스 숫자 개수 출력")
+    public void compareBonusLottoNumber() throws Exception
+    {
+        //given
+        Integer bonusNumber = 3;
+        List<Integer> userSelectedNumbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7));
+        //when
+        int count = lottoNumberReferre.compareBonusLottoNumber(bonusNumber,userSelectedNumbers);
+        //then
+        assertEquals(count,1);
+    }
+
+    @Test
+    @DisplayName("참가자가 몇 등인지 출력")
+    public void getUserLottoRank() throws Exception
+    {
+        //given
+        List<Integer> basicLottoNumbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,7));
+        Integer bonusNumber = 6;
+        List<Integer> userSelectedNumbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,7));
+        //when
+        String rank = lottoNumberReferre.getUserLottoRank(basicLottoNumbers,bonusNumber,userSelectedNumbers);
+        //then
+        assertEquals(rank,"1등");
+    }
 }

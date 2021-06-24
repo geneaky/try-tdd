@@ -76,5 +76,20 @@ class LottoNumberTest {
         });
     }
 
+    @Test
+    @DisplayName("6개의 중복되지 않는 숫자를 생성")
+    public void autoGenerator() throws Exception
+    {
+        //given
+        List<Integer> userLottoNumbers = lottoNumber.lottoAutoGenerator();
+        //when
+        Map<String,Integer> map = new HashMap<>();
+        for(Integer userLottoNumber: userLottoNumbers){
+            map.put(userLottoNumber.toString(),userLottoNumber);
+        }
+        //then
+        assertEquals(userLottoNumbers.size(),6);
+        assertEquals(map.size(),6);
+    }
 
 }

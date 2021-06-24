@@ -1,6 +1,10 @@
+Simulation.java
+ Simulation
 Lotto.java
  Lotto
-LottoNumberReferre.java
- LottoNumberReferre
 LottoNumber.java
  LottoNumber
+LottoLank.java
+ LottoLank
+LottoNumberReferre.java
+ LottoNumberReferre
