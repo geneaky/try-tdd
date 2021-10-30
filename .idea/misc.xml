@@ -4,5 +4,6 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bowling" />
     <file type="web" url="file://$PROJECT_DIR$/primefactors" />
+    <file type="web" url="file://$PROJECT_DIR$/wordwrap" />
   </component>
 </project>
