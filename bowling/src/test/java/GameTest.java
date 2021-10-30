@@ -81,7 +81,6 @@ public class GameTest {
     rollMany(10,10);
     game.roll(10);
     game.roll(10);
-
     assertEquals(game.getScore(),300);
   }
 
