@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/bowling" />
+    <file type="web" url="file://$PROJECT_DIR$/mailbox" />
     <file type="web" url="file://$PROJECT_DIR$/nameinverter" />
     <file type="web" url="file://$PROJECT_DIR$/primefactors" />
     <file type="web" url="file://$PROJECT_DIR$/wordwrap" />
