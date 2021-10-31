@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NameInverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-31T06:53:49" hostname="hibs-To-be-filled-by-O-E-M" time="0.016">
+  <properties/>
+  <testcase name="name" classname="NameInverterTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
