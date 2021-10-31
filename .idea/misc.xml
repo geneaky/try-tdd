@@ -5,7 +5,10 @@
     <file type="web" url="file://$PROJECT_DIR$/bowling" />
     <file type="web" url="file://$PROJECT_DIR$/mailbox" />
     <file type="web" url="file://$PROJECT_DIR$/nameinverter" />
+    <file type="web" url="file://$PROJECT_DIR$/out_side_in_tdd" />
+    <file type="web" url="file://$PROJECT_DIR$/outside_in_tdd" />
     <file type="web" url="file://$PROJECT_DIR$/primefactors" />
+    <file type="web" url="file://$PROJECT_DIR$/sort" />
     <file type="web" url="file://$PROJECT_DIR$/wordwrap" />
   </component>
 </project>
