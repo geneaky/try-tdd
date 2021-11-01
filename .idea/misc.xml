@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/apiFirstDev" />
     <file type="web" url="file://$PROJECT_DIR$/atdd-order" />
     <file type="web" url="file://$PROJECT_DIR$/bowling" />
     <file type="web" url="file://$PROJECT_DIR$/mailbox" />
